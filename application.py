@@ -110,7 +110,7 @@ def list_csv_reports():
 @app.route('/api/slow-endpoint')
 def slow_endpoint():
     time.sleep(5)
-    return "This was a slow response after 5 seconds".
+    return "This was a slow response after 5 seconds"
 
 
 @app.route('/high-cpu')
